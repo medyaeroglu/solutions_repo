@@ -12,39 +12,39 @@ To derive the equations for projectile motion, we begin with Newton's second law
 
 We break down the motion into two components:
 - **Horizontal motion**: The horizontal velocity remains constant throughout the flight since there is no horizontal acceleration. Thus:
-  \[
+  $$
   x(t) = v_0 \cos(\theta) t
-  \]
+  $$
   where \( v_0 \) is the initial velocity, \( \theta \) is the angle of projection, and \( t \) is time.
 
 - **Vertical motion**: The vertical motion follows the equations of uniformly accelerated motion due to gravity:
-  \[
+  $$
   y(t) = v_0 \sin(\theta) t - \frac{1}{2} g t^2
-  \]
+  $$
   where \( v_0 \sin(\theta) \) is the initial vertical velocity.
 
 #### 1.2. Time of Flight
 
 To find the time it takes for the projectile to return to the ground, we set \( y(t) = 0 \) (i.e., when the projectile hits the ground). Solving the equation:
-\[
+$$
 0 = v_0 \sin(\theta) t - \frac{1}{2} g t^2
-\]
+$$
 gives the nontrivial solution:
-\[
+$$
 t = \frac{2v_0 \sin(\theta)}{g}
-\]
+$$
 This is the time of flight.
 
 #### 1.3. Horizontal Range
 
 The horizontal range \( R \) is the distance the projectile travels in the horizontal direction during its time of flight. Using the horizontal equation \( x(t) = v_0 \cos(\theta) t \) and substituting the time of flight:
-\[
+$$
 R = v_0 \cos(\theta) \left(\frac{2v_0 \sin(\theta)}{g}\right)
-\]
+$$
 Simplifying:
-\[
+$$
 R = \frac{v_0^2 \sin(2\theta)}{g}
-\]
+$$
 This equation describes the range of the projectile as a function of the initial velocity, gravitational acceleration, and angle of projection.
 
 #### 1.4. Family of Solutions
