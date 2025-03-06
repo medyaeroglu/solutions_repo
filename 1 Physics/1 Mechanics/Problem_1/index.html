@@ -222,36 +222,36 @@
 </ul>
 <p>We break down the motion into two components:
 - <strong>Horizontal motion</strong>: The horizontal velocity remains constant throughout the flight since there is no horizontal acceleration. Thus:
-  [
+  $$
   x(t) = v_0 \cos(\theta) t
-  ]
+  $$
   where <span class="arithmatex">\( v_0 \)</span> is the initial velocity, <span class="arithmatex">\( \theta \)</span> is the angle of projection, and <span class="arithmatex">\( t \)</span> is time.</p>
 <ul>
 <li><strong>Vertical motion</strong>: The vertical motion follows the equations of uniformly accelerated motion due to gravity:
-  [
+  $$
   y(t) = v_0 \sin(\theta) t - \frac{1}{2} g t^2
-  ]
+  $$
   where <span class="arithmatex">\( v_0 \sin(\theta) \)</span> is the initial vertical velocity.</li>
 </ul>
 <h4 id="12-time-of-flight">1.2. Time of Flight</h4>
 <p>To find the time it takes for the projectile to return to the ground, we set <span class="arithmatex">\( y(t) = 0 \)</span> (i.e., when the projectile hits the ground). Solving the equation:
-[
+$$
 0 = v_0 \sin(\theta) t - \frac{1}{2} g t^2
-]
+$$
 gives the nontrivial solution:
-[
+$$
 t = \frac{2v_0 \sin(\theta)}{g}
-]
+$$
 This is the time of flight.</p>
 <h4 id="13-horizontal-range">1.3. Horizontal Range</h4>
 <p>The horizontal range <span class="arithmatex">\( R \)</span> is the distance the projectile travels in the horizontal direction during its time of flight. Using the horizontal equation <span class="arithmatex">\( x(t) = v_0 \cos(\theta) t \)</span> and substituting the time of flight:
-[
+$$
 R = v_0 \cos(\theta) \left(\frac{2v_0 \sin(\theta)}{g}\right)
-]
+$$
 Simplifying:
-[
+$$
 R = \frac{v_0^2 \sin(2\theta)}{g}
-]
+$$
 This equation describes the range of the projectile as a function of the initial velocity, gravitational acceleration, and angle of projection.</p>
 <h4 id="14-family-of-solutions">1.4. Family of Solutions</h4>
 <p>By varying the parameters—initial velocity <span class="arithmatex">\( v_0 \)</span>, gravitational acceleration <span class="arithmatex">\( g \)</span>, and angle of projection <span class="arithmatex">\( \theta \)</span>—we get a family of solutions for the range. For a fixed initial velocity, the range is maximized when <span class="arithmatex">\( \theta = 45^\circ \)</span>, since <span class="arithmatex">\( \sin(2\theta) \)</span> achieves its maximum value of 1 at this angle.</p>
