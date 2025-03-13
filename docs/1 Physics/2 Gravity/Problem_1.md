@@ -19,9 +19,9 @@ Kepler's Third Law of Planetary Motion reveals a profound relationship between t
 
 The starting point for Kepler's Third Law is Newton’s Law of Universal Gravitation, which states that the gravitational force \(F_g\) between two masses, \(M\) and \(m\), separated by a distance \(r\) is given by:
 
-\[
+$$
 F_g = \frac{GMm}{r^2}
-\]
+$$
 
 Where:
 - \( G \) is the gravitational constant.
@@ -31,60 +31,60 @@ Where:
 
 For an object in a stable circular orbit, the gravitational force is the centripetal force that keeps the object in orbit. The centripetal force \(F_c\) is given by:
 
-\[
+$$
 F_c = \frac{mv^2}{r}
-\]
+$$
 
 Where:
 - \( v \) is the orbital velocity of the object.
 
 Equating the gravitational force to the centripetal force gives:
 
-\[
+$$
 \frac{GMm}{r^2} = \frac{mv^2}{r}
-\]
+$$
 
 Canceling the mass \(m\) from both sides:
 
-\[
+$$
 \frac{GM}{r^2} = \frac{v^2}{r}
-\]
+$$
 
 Solving for the orbital velocity \(v\):
 
-\[
+$$
 v = \sqrt{\frac{GM}{r}}
-\]
+$$
 
 Now, the orbital period \(T\) is the time it takes for the orbiting object to complete one full revolution around the central object. The orbital velocity \(v\) is also related to the orbital period \(T\) by the following relationship:
 
-\[
+$$
 v = \frac{2\pi r}{T}
-\]
+$$
 
 Substituting this expression for \(v\) into the equation for orbital velocity:
 
-\[
+$$
 \frac{2\pi r}{T} = \sqrt{\frac{GM}{r}}
-\]
+$$
 
 Squaring both sides:
 
-\[
+$$
 \left(\frac{2\pi r}{T}\right)^2 = \frac{GM}{r}
-\]
+$$
 
 Simplifying the equation:
 
-\[
+$$
 \frac{4\pi^2 r^2}{T^2} = \frac{GM}{r}
-\]
+$$
 
 Rearranging for \(T^2\):
 
-\[
+$$
 T^2 = \frac{4\pi^2 r^3}{GM}
-\]
+$$
 
 This is the key result from Kepler’s Third Law, showing that the square of the orbital period \(T^2\) is proportional to the cube of the orbital radius \(r^3\), with the constant of proportionality depending on the mass \(M\) of the central object.
 
@@ -156,9 +156,9 @@ plt.show()
 
 Kepler’s Third Law also applies to elliptical orbits, with the relationship between the orbital period and radius still holding in a generalized form. The average orbital radius, or semi-major axis \(a\), is used instead of the orbital radius for elliptical orbits. Thus, Kepler’s Third Law for elliptical orbits becomes:
 
-\[
+$$
 T^2 = \frac{4\pi^2 a^3}{GM}
-\]
+$$
 
 This formula shows that the average orbital period still depends on the cube of the semi-major axis, even in elliptical orbits.
 
